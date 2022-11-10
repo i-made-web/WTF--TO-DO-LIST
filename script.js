@@ -21,11 +21,6 @@ window.addEventListener('load', () => {
 		newTaskInput.setAttribute('readonly', 'readonly');
         newTaskDiv.appendChild(newTaskInput);
 
-        const newTaskCheckbox = document.createElement('input');
-		newTaskCheckbox.classList.add('newTaskCheckbox');
-		newTaskCheckbox.type = "checkbox";
-        newTaskDiv.appendChild(newTaskCheckbox);
-
 		const newTaskButtonsDiv = document.createElement('div');
 		newTaskButtonsDiv.classList.add('newTaskButtonsDiv');
 		
